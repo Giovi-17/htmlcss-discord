@@ -21,6 +21,10 @@ body{
     clear: both;
 }
 
+.background-gray{
+    background-color: #f6f6f6;
+}
+
 /* titles and text */
 .title{
     font-size: 87px;
@@ -29,6 +33,7 @@ body{
 .text{
     font-size: 35px;
     line-height: 50px;
+    padding-top: 40px;
 }
 
 /* Bottoni */
@@ -96,6 +101,7 @@ header li a{
 
 .col-left, .col-center, .col-right{
     width: 15%;
+    padding: 15px 0;
 }
 
 .col-center{
@@ -111,10 +117,10 @@ header li a{
 /* MAIN */
 .main-background{
     width: 100%;
-    height: 933px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 10%;
 }
 
 .main-background-total{
@@ -138,4 +144,28 @@ header li a{
 
 .pulsante-sinistro{
     margin-right: 50px;
+}
+
+/* sezione 1 */
+.section{
+    width: 80%;
+    margin: 200px auto;
+}
+
+.first-section div{
+    display: inline-block;
+}
+
+.image{
+    width: 60%;
+}
+
+.image img{
+    width: 85%;
+    padding: 0 0 0 10%;
+}
+
+.image-text{
+    margin-top: 1.7%;
+    width: 35%;
 }
