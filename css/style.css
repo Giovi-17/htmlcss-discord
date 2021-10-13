@@ -4,3 +4,84 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Whitney",sans-serif;
+}
+
+.col {
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Bottoni */
+.btn-small{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.btn-white{
+    color: white;
+    background-color: black;
+}
+
+.btn-black{
+    color: black;
+    background-color: white;
+}
+
+/* HEADER */
+header{
+    background-color: #3161e0;
+}
+
+/* NAV */
+header nav{
+    width: 70%;
+    height: 100%;
+    padding: 25px 0;
+    margin: auto;
+}
+
+header img{
+    width: 70%;
+}
+
+header ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+header li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.col-left, .col-center, .col-right{
+    width: 15%;
+}
+
+.col-center{
+    width: 70%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.col-right{
+    text-align: right;
+}
