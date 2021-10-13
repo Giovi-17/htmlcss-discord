@@ -9,6 +9,8 @@ body{
     font-family: "Whitney",sans-serif;
 }
 
+/* COMMON */
+
 .col {
     float: left;
 }
@@ -19,14 +21,34 @@ body{
     clear: both;
 }
 
+/* titles and text */
+.title{
+    font-size: 87px;
+}
+
+.text{
+    font-size: 35px;
+    line-height: 50px;
+}
+
 /* Bottoni */
-.btn-small{
+.btn{
     display: inline-block;
     text-decoration: none;
-    border-radius: 20px;
-    padding: 8px 16px;
     text-align: center;
+}
+
+.btn-small{
+    padding: 8px 16px;
     line-height: 20px;
+    border-radius: 20px;
+}
+
+.btn-big{
+    padding: 35px 47px;
+    line-height: 30px;
+    font-size: 35px;
+    border-radius: 40px;
 }
 
 .btn-white{
@@ -84,4 +106,36 @@ header li a{
 
 .col-right{
     text-align: right;
+}
+
+/* MAIN */
+.main-background{
+    width: 100%;
+    height: 933px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-background-total{
+    width: 53%;
+    margin: auto;
+}
+
+.main-background-top{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.main-background-top h1{
+    padding: 135px 0 80px 0;
+}
+
+.main-background-bottom{
+    padding: 0 12%;
+}
+
+.pulsante-sinistro{
+    margin-right: 50px;
 }
